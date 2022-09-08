@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "698844ef-fee7-4d27-9c31-8912ce7e871e",
+		"name": "RepositoryFactoryPattern",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Futurama Repository",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/characters/futurama/fry",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"characters",
+						"futurama",
+						"fry"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pokemon Repository",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/characters/pokemon/charizard",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"characters",
+						"pokemon",
+						"charizard"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Rick Morty Repository",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/characters/rick/morty",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"characters",
+						"rick",
+						"morty"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Simpsons Repository",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/characters/simpson/marge",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"characters",
+						"simpson",
+						"marge"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
